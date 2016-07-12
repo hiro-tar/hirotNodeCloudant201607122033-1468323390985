@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: hirotNodeCloudant201607122033
+  host: hirotNodeCloudant201607122033
+  disk_quota: 1024M
+  services:
+  - hirotNodeCloudant201607122033-cloudantNoSQLDB
